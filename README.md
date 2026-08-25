@@ -1,3 +1,3 @@
 # Vera_leynard
-Web Develepment
+Web Development
 Live Site: https://leynard-vera.github.io/Vera_leynard/

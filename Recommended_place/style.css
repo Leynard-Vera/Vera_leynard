@@ -1,0 +1,156 @@
+/* ===== General Page ===== */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 25px;
+    line-height: 1.6;
+    color: #26352B;
+    background-color: #F7FFF9;
+}
+
+
+/* ===== Header ===== */
+
+header {
+    background-color: #FFFFFF;
+    padding: 30px;
+    border-radius: 16px;
+    border-left: 6px solid #00A86B;
+    box-shadow: 0 5px 15px rgba(0, 168, 107, 0.12);
+    margin-bottom: 30px;
+}
+
+h1 {
+    color: #008F5A;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.subtitle {
+    color: #4A7C59;
+    font-weight: bold;
+}
+
+
+/* ===== Main Content ===== */
+
+main {
+    background-color: #FFFFFF;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 5px 15px rgba(0, 168, 107, 0.10);
+}
+
+main > h2 {
+    color: #008F5A;
+    border-bottom: 3px solid #B8F23D;
+    padding-bottom: 10px;
+    margin-top: 0;
+}
+
+
+/* ===== Place Cards ===== */
+
+.place {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+
+    background-color: #F9FFF4;
+
+    padding: 22px;
+    margin: 20px 0;
+
+    border-radius: 14px;
+
+    border: 1px solid #C8E6C9;
+
+    box-shadow: 0 3px 10px rgba(0, 168, 107, 0.08);
+
+    transition: 0.25s ease;
+}
+
+
+/* ===== Hover ===== */
+
+.place:hover {
+    transform: translateY(-4px);
+
+    border-color: #9BE22D;
+
+    box-shadow: 0 8px 18px rgba(0, 168, 107, 0.16);
+}
+
+
+/* ===== Place Details ===== */
+
+.place-content {
+    flex: 1;
+}
+
+.place h3 {
+    color: #008F5A;
+    font-size: 23px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.place p {
+    color: #405448;
+    margin: 0;
+}
+
+
+/* ===== Images ===== */
+
+.place img {
+    width: 240px;
+    height: 140px;
+
+    object-fit: cover;
+
+    border-radius: 12px;
+
+    margin: 0;
+
+    border: 3px solid #B8F23D;
+
+    box-shadow: 0 4px 10px rgba(0, 168, 107, 0.15);
+}
+
+
+/* ===== Footer ===== */
+
+footer {
+    text-align: center;
+    color: #4A7C59;
+    padding: 25px;
+}
+
+
+/* ===== Mobile ===== */
+
+@media (max-width: 650px) {
+
+    body {
+        padding: 20px 15px;
+    }
+
+    header,
+    main {
+        padding: 20px;
+    }
+
+    .place {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .place img {
+        width: 100%;
+        height: auto;
+    }
+
+}
