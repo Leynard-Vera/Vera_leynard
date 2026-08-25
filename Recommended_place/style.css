@@ -1,4 +1,3 @@
-/* ===== General Page ===== */
 
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -11,7 +10,7 @@ body {
 }
 
 
-/* ===== Header ===== */
+
 
 header {
     background-color: #FFFFFF;
@@ -34,7 +33,7 @@ h1 {
 }
 
 
-/* ===== Main Content ===== */
+
 
 main {
     background-color: #FFFFFF;
@@ -51,7 +50,7 @@ main > h2 {
 }
 
 
-/* ===== Place Cards ===== */
+
 
 .place {
     display: flex;
@@ -73,7 +72,6 @@ main > h2 {
 }
 
 
-/* ===== Hover ===== */
 
 .place:hover {
     transform: translateY(-4px);
@@ -84,7 +82,6 @@ main > h2 {
 }
 
 
-/* ===== Place Details ===== */
 
 .place-content {
     flex: 1;
@@ -103,7 +100,7 @@ main > h2 {
 }
 
 
-/* ===== Images ===== */
+
 
 .place img {
     width: 240px;
@@ -121,7 +118,7 @@ main > h2 {
 }
 
 
-/* ===== Footer ===== */
+
 
 footer {
     text-align: center;
@@ -130,7 +127,7 @@ footer {
 }
 
 
-/* ===== Mobile ===== */
+
 
 @media (max-width: 650px) {
 
