@@ -18,7 +18,7 @@ body {
     background-color: #FFF8E7;
 }
 
-/* About / Story */
+
 .story {
     max-width: 800px;
     margin: 40px auto;
@@ -41,7 +41,7 @@ body {
     margin-bottom: 20px;
 }
 
-/* Main Content */
+
 main h2 {
     text-align: center;
 }
@@ -50,7 +50,7 @@ main p {
     text-align: center;
 }
 
-/* Facebook Box */
+
 .facebook-box {
     max-width: 800px;
     margin: 40px auto;
@@ -67,14 +67,14 @@ main p {
     margin-top: 20px;
 }
 
-/* Product Title */
+
 .product-title {
     text-align: center;
     font-size: 36px;
     margin: 30px 0;
 }
 
-/* Product Information */
+
 .product-info {
     max-width: 800px;
     margin: 30px auto;
@@ -89,7 +89,7 @@ main p {
     margin-bottom: 20px;
 }
 
-/* Ingredients */
+
 .ingredients {
     max-width: 500px;
     margin: 30px auto;
@@ -105,7 +105,7 @@ main p {
     padding: 5px;
 }
 
-/* Specifications Table */
+
 .specifications {
     width: 100%;
     border-collapse: collapse;
@@ -122,7 +122,7 @@ main p {
     font-weight: bold;
 }
 
-/* Product Image */
+
 .product-image {
     width: 400px;
     margin: 30px auto;
@@ -139,4 +139,227 @@ main p {
     height: auto;
     display: block;
     border-radius: 10px;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff8ed;
+    color: #4a2c20;
+    line-height: 1.6;
+}
+
+
+
+header {
+    background-color: #f4b942;
+    padding: 25px 40px;
+    text-align: center;
+    border-bottom: 5px solid #d88b20;
+}
+
+header h1 {
+    margin: 0 0 10px;
+    font-size: 42px;
+    color: #ffffff;
+}
+
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    background-color: #8b4513;
+    padding: 8px 18px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background-color: #5f2f12;
+}
+
+
+
+
+main {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+main > h2 {
+    font-size: 32px;
+    color: #8b4513;
+    margin-bottom: 5px;
+}
+
+main > p {
+    font-size: 18px;
+    color: #6b4b3e;
+}
+
+
+
+main > img {
+    width: 250px;
+    max-width: 100%;
+    border-radius: 15px;
+    margin: 20px 0 40px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+
+
+
+section {
+    margin-top: 30px;
+}
+
+section > h2 {
+    font-size: 30px;
+    color: #8b4513;
+    margin-bottom: 25px;
+}
+
+
+article {
+    display: inline-block;
+    vertical-align: top;
+    width: 45%;
+    min-height: 430px;
+    margin: 15px;
+    padding: 25px;
+    background-color: white;
+    border-radius: 15px;
+    border: 2px solid #f1d4a8;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    transition: 0.3s;
+}
+
+article:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+article h4 {
+    font-size: 21px;
+    color: #8b4513;
+    margin-top: 0;
+}
+
+article p {
+    color: #6b4b3e;
+    min-height: 100px;
+}
+
+
+
+article img {
+    display: block;
+    width: 240px;
+    height: 160px;
+    object-fit: cover;
+    margin: 15px auto;
+    border-radius: 12px;
+}
+
+
+
+
+article a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #e89b2c;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+article a:hover {
+    background-color: #c97915;
+}
+
+
+
+
+section h3 {
+    margin: 40px 0;
+}
+
+section h3 a {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #8b4513;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+section h3 a:hover {
+    background-color: #5f2f12;
+    transform: scale(1.05);
+}
+
+
+
+footer {
+    margin-top: 50px;
+    padding: 25px;
+    background-color: #4a2c20;
+    color: white;
+    text-align: center;
+}
+
+footer p {
+    margin: 5px;
+}
+
+
+
+
+@media (max-width: 700px) {
+
+    header {
+        padding: 20px;
+    }
+
+    header h1 {
+        font-size: 32px;
+    }
+
+    nav ul li {
+        margin: 5px;
+    }
+
+    article {
+        width: 90%;
+        margin: 15px auto;
+    }
+
+    main > h2 {
+        font-size: 26px;
+    }
 }
