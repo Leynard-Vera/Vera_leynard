@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Contact - Putoshuk</title>
     <link rel="stylesheet" href="style.css">
@@ -30,15 +31,81 @@
 
     <ul>
         <li>Email: leyhziv@gmail.com</li>
-         </ul>
-         <section class="facebook-box">
-            <ul>
-          <h2>Facebook: Putoshuk</h2> 
-            </ul>
-        <img src="putoshuk.png" width="480" height="500">
-         </section>
+    </ul>
 
-   
+    <section class="facebook-box">
+        <h2>Facebook: Putoshuk</h2>
+
+        <img src="putoshuk.png" width="480" height="500" alt="Putoshuk Facebook page">
+    </section>
+
+    <section>
+
+        <h2>Send Us a Message</h2>
+
+        <p>
+            You can also send us a message by filling out the form below.
+        </p>
+
+        <form>
+
+            <fieldset>
+
+                <legend>Your details</legend>
+
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <br><br>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <br><br>
+
+                <label for="subject">Subject</label>
+
+                <select id="subject" name="subject">
+                    <option value="product-question">
+                        Product Question
+                    </option>
+
+                    <option value="order-status">
+                        Order Status
+                    </option>
+
+                    <option value="wholesale-enquiry">
+                        Wholesale Enquiry
+                    </option>
+
+                    <option value="other">
+                        Something Else
+                    </option>
+                </select>
+
+                <br><br>
+
+                <label for="message">Message</label>
+
+                <br>
+
+                <textarea
+                    id="message"
+                    name="message"
+                    rows="6"
+                    cols="40"
+                    required>
+                </textarea>
+
+                <br><br>
+
+                <button type="submit">Send message</button>
+
+            </fieldset>
+
+        </form>
+
+    </section>
 
 </main>
 
@@ -48,4 +115,3 @@
 
 </body>
 </html>
-
